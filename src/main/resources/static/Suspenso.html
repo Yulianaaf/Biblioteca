@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <title>Suspenso - Biblioteca Virtual</title>
+    <style>
+        /* Estilo para centrar y ajustar el tamaño de las imágenes */
+        .card-img-top {
+            max-height: 200px; /* Altura máxima ajustada */
+            max-width: 150px;  /* Ancho máximo ajustado */
+            object-fit: cover; /* Mantiene la relación de aspecto */
+            margin: 0 auto;    /* Centra la imagen */
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <header class="bg-dark text-white text-center py-3">
+        <h1>Género: Suspenso</h1>
+        <nav>
+            <ul class="nav justify-content-center">
+                <li class="nav-item"><a href="Biblioteca.html" class="nav-link text-white">Inicio</a></li>
+                <li class="nav-item"><a href="sobre_nosotros.html" class="nav-link text-white">Sobre Nosotros</a></li>
+                <li class="nav-item"><a href="contacto.html" class="nav-link text-white">Contacto</a></li>
+                <li class="nav-item"><a href="registro.html" class="nav-link text-white">Registro</a></li>
+                <li class="nav-item"><a href="iniciar_sesion.html" class="nav-link text-white">Iniciar Sesión</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="container py-4">
+        <h2 class="text-center mb-4">Libros de Suspenso</h2>
+        <div class="row row-cols-1 row-cols-sm-2 g-4">
+            <div class="col">
+                <div class="card h-100">
+                    <img src="lachicadeltren.jpg" class="card-img-top" alt="La Chica del Tren">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">La Chica del Tren</h5>
+                        <p class="card-text">Rachel toma el tren todas las mañanas y observa lo que cree que es la vida perfecta de una pareja. Hasta que un día, un evento inesperado cambia todo y la involucra en una intriga llena de suspenso.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100">
+                    <img src="elsilencio.jpg" class="card-img-top" alt="El Silencio de los Inocentes">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">El Silencio de los Inocentes</h5>
+                        <p class="card-text">Un agente del FBI busca la ayuda del famoso doctor Hannibal Lecter para atrapar a un peligroso asesino en serie. Un thriller psicológico que explora la mente criminal como nunca antes.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-dark text-white text-center py-3">
+        <p>&copy; 2024 Biblioteca Virtual. Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
